@@ -386,7 +386,7 @@ table th {
 
 /* Animation (Add After) */
 .item-enter {
-  opacity: 0.01;
+  opacity: 0;
 }
 
 .item-enter-active {
@@ -396,12 +396,10 @@ table th {
 
 .item-exit {
   opacity: 1;
-  /* transform: translateX(0); */
 }
 
 .item-exit-active {
-  opacity: 0.01;
-  /* transform: translateX(1000px); */
+  opacity: 0;
   transition: opacity 1000ms ease-in;
 }
 
